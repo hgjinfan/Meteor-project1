@@ -5,7 +5,7 @@
 -Meteor v1.4.2.7
 
 ###用到的包
-![](http://http://ol6za00s5.bkt.clouddn.com/Meteor-list.PNG)
+![](http://ol6za00s5.bkt.clouddn.com/Meteor-list.PNG)
 
 ###目前实现功能
 - 登陆注册
