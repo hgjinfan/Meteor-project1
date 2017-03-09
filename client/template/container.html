@@ -1,0 +1,19 @@
+<template name="container">
+    <div class="row">
+    	<div class="col-md-2"></div>
+    	<div class="col-md-8">
+        	<!-- 蒙版 -->
+        	{{#if currentUser}}
+        		{{> takephoto}}
+        		{{else}}
+        		    {{> tip}}
+        	{{/if}}
+			<div class="row">
+                {{#each picInfo}}
+				    {{> photoes}}
+                {{/each}}
+    		</div>
+    	</div>
+    	<div class="col-md-2"></div>
+    </div>
+</template>

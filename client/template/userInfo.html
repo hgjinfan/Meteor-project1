@@ -1,0 +1,50 @@
+<template name="userInfo">
+    <div class="container-fluid">
+    {{#if currentUser}}
+    	<div class="col-md-12">
+    		<div class="col-md-2">
+    		</div>
+    		<div class="col-md-2">
+    			<img alt="140x140" src="img/a.jpg" class="img-circle" />
+    			<h2>
+    				标题
+    			</h2>
+    			<p>
+    				本可视化布局程序在HTML5浏览器上运行更加完美, 能实现自动本地化保存, 即使关闭了网页, 下一次打开仍然能恢复上一次的操作.
+    			</p>
+    			<p>
+    				<a class="btn" href="#">查看更多 »</a>
+    			</p>
+    		</div>
+    		<div class="col-md-6">
+    			<div class="tabbable" id="tabs-717605">
+    				<ul class="nav nav-tabs">
+    					<li class="active">
+    						<a href="#panel-462093" data-toggle="tab">第一部分</a>
+    					</li>
+    					<li>
+    						<a href="#panel-143466" data-toggle="tab">第二部分</a>
+    					</li>
+    				</ul>
+    				<div class="tab-content">
+    					<div class="tab-pane active" id="panel-462093">
+    						<p>
+    							第一部分内容.
+    						</p>
+    					</div>
+    					<div class="tab-pane" id="panel-143466">
+    						<p>
+    							第二部分内容.
+    						</p>
+    					</div>
+    				</div>
+    			</div>
+    		</div>
+    		<div class="col-md-2">
+    		</div>
+    	</div>
+    {{else}}
+        {{> logintip}}
+    {{/if}}
+    </div>
+</template>

@@ -1,0 +1,42 @@
+<template name="nav">
+    <div class="row">
+		<div class="col-md-12">
+			<nav class="navbar navbar-default" role="navigation">
+				<div class="navbar-header">
+					<!--响应式-->
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						 <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+					</button> <a class="navbar-brand" href="/"><i class="fa fa-smile-o fa-lg" aria-hidden="true"></i> SMILE</a>
+				</div>
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<form class="navbar-form navbar-left" role="search">
+						<div class="form-group">
+							<input type="text" class="form-control">
+						</div>
+						<button type="submit" class="btn btn-default">
+							Submit
+						</button>
+					</form>
+					<ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="">
+                                <i class="fa fa-compass fa-lg" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <i class="fa fa-heart-o fa-lg" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li class="userInfo">
+                            <a href="/userInfo">
+                                <i class="fa fa-user-o fa-lg" aria-hidden="true"></i>
+                            </a>
+                        </li>
+				        {{> loginButtons}}
+					</ul>
+				</div>
+			</nav>
+		</div>
+	</div>
+</template>

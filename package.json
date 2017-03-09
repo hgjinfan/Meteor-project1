@@ -1,0 +1,15 @@
+{
+  "name": "Myapp",
+  "private": true,
+  "scripts": {
+    "start": "meteor run"
+  },
+  "dependencies": {
+    "babel-runtime": "6.18.0",
+    "bcrypt": "^1.0.2",
+    "meteor-node-stubs": "~0.2.0"
+  },
+  "devDependencies": {
+    "velocity-animate": "^1.4.3"
+  }
+}

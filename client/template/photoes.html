@@ -1,0 +1,39 @@
+<template name="photoes">
+    <div class="col-md-4">
+        <div class="thumbnail">
+            <img alt={{owner}} src='{{pic}}' id={{_id}}>
+            <div class="caption">
+                <h3>
+                    {{username}}
+                </h3>
+                <p>
+                    Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+                </p>
+                <p>
+                    <a class="btn btn-primary" href="#">Action</a> <a id="modal-374364" class="btn btn-danger delete" href="#modal-container-374364" role="button"  data-toggle="modal"><i class="fa fa-trash"></i> Delete</a>
+                </p>
+                <!-- {{> confirm_del}} -->
+                <div class="modal fade" id="modal-container-374364" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                       <div class="modal-dialog">
+                           <div class="modal-content">
+                               <div class="modal-header">
+
+                                   <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                                       ×
+                                   </button>
+                               </div>
+                               <div class="modal-body tp">
+                                   <p>
+                                       <div class="alert alert-warning" role="alert">是否删除该照片？</div>
+                                   </p>
+                               </div>
+                               <div class="modal-footer">
+                                 <button id="confirm" class="btn btn-danger" data-dismiss="modal"><i class="fa fa-check fa-fw" aria-hidden="true"></i>&nbsp; 确定</button> <button id="cancel" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times fa-fw" aria-hidden="true"></i>&nbsp; 取消</button>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+            </div>
+        </div>
+    </div>
+</template>
