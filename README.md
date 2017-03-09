@@ -19,3 +19,13 @@
 - 增加订阅用户功能，并根据订阅显示其他用户所发布的公开照片
 
 未完待续...
+
+
+
+
+###参考资料
+[meteorcapture](http://meteorcapture.com/)
+
+[Discover Meteor](http://zh.discovermeteor.com/)　指南
+
+[ATMOSPHERE](https://atmospherejs.com/gwendall/template-animations)　提供各种实用包
